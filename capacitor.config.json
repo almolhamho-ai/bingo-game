@@ -1,6 +1,6 @@
 {
   "appId": "com.almolham.bingo",
   "appName": "BINGO",
-  "webDir": ".",
+  "webDir": "WWW",
   "bundledWebRuntime": false
 }
