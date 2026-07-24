@@ -11,6 +11,7 @@ jobs:
           node-version: 20
       - run: npm install
       - run: npx cap add android
+      - run: sed -i '/<manifest /a\    <uses-permission android:name="android.permission.CAMERA" />' android/app/src/main/AndroidManifest.xml
       - run: npx cap sync
       - uses: actions/setup-java@v4
         with:
